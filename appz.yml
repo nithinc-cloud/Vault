@@ -1,17 +1,17 @@
 app:
     name: Vault
     code: VAULT
-    notify: appz@ecloudcontrol.com
+    notify: aramanan@ecloudcontrol.com
 
 build:
-    version: 0.4
-    env: PROD
+    version: Test
+    env: DEV
     build_file: none
     output_files: output/*.zip
     image_template: vault-1.2
 
 deploy:
-    context: ecloudcontrol/PROD
+    context: appzcoder/DEV
     type: statefulset
     ingress: none
     replicas: 1
