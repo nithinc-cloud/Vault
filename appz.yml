@@ -4,8 +4,8 @@ app:
     notify: aramanan@ecloudcontrol.com
 
 build:
-    version: 0.4
-    env: TEST
+    version: test
+    env: DEV
     build_file: none
     output_files: output/*.zip
     image_template: vault-1.2
