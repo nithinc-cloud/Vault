@@ -28,6 +28,7 @@ volumes:
     mount: /appz/data
     name: data
     size: 5Gi
+    matchLabels: false
 
 properties:
     ENABLE_AUTO_PASSWORD: True
