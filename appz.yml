@@ -33,4 +33,4 @@ volumes:
 
 properties:
     ENABLE_AUTO_PASSWORD: False
-    revision: 65
+    revision: 66
