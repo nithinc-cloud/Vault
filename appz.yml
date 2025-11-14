@@ -1,17 +1,17 @@
 app:
     name: Vault
     code: VAULT
-    notify: appz@ecloudcontrol.com
+   # notify: appz@ecloudcontrol.com
 
 build:
     version: 0.4
-    env: PROD
+    env: DEV
     build_file: none
     output_files: output/*.zip
     image_template: vault-1.2
 
 deploy:
-    context: ecloudcontrol/PROD
+    context: nithinc-cloud/DEV
     type: statefulset
     ingress: none
     replicas: 1
