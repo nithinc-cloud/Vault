@@ -5,13 +5,13 @@ app:
 
 build:
     version: 0.4
-    env: POC
+    env: DEV
     build_file: none
     output_files: output/*.zip
     image_template: vault-1.19
 
 deploy:
-    context: muthoot/POC
+    context: nithinc-cloud/DEV
     type: statefulset
     ingress: none
     replicas: 1
